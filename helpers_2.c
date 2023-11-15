@@ -6,8 +6,8 @@ void logical_ops(char *line, ssize_t *new_len);
 
 /**
  * handle_line - Partitions a line read from standard input as needed.
- * @line: A pointer to a line read from standard input.
- * @read: The length of line.
+ * @line: A ptr to a line read from standard input.
+ * @read: The length of the line.
  *
  * Description: Spaces are inserted to separate ";", "||", and "&&".
  *              Replaces "#" with '\0'.
@@ -158,8 +158,8 @@ ssize_t get_new_len(char *line)
 }
 /**
  * logical_ops - Checks a line for logical operators "||" or "&&".
- * @line: A pointer to the character to check in the line.
- * @new_len: Pointer to new_len in get_new_len function.
+ * @line: A Ptr to the character to check in the line.
+ * @new_len: Ptr to new_len in get_new_len function.
  */
 void logical_ops(char *line, ssize_t *new_len)
 {
