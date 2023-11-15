@@ -8,7 +8,7 @@ list_t *get_path_dir(char *path);
  * @command: The command to locate.
  *
  * Return: If an error occurs or the command cannot be located - NULL.
- *         Otherwise - the full pathname of the command.
+ *         Otherwise - The full pathname of the command.
  */
 char *get_location(char *command)
 {
@@ -108,7 +108,7 @@ char *fill_path_dir(char *path)
  *                directories into a list_s linked list.
  * @path: The colon-separated list of directories.
  *
- * Return: A pointer to the initialized linked list.
+ * Return: A ptr to the initialized linked list.
  */
 list_t *get_path_dir(char *path)
 {
